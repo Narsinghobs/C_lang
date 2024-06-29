@@ -1,0 +1,32 @@
+
+
+Q1. WAP to get the position of a substring in a string
+
+i/p:
+Main string: This is a C Programming class, We are leaning arrays and string today
+i/p
+sub string: are
+
+o/p : 34
+
+o/p: -1
+
+
+Q2. WAP to reverse the given string
+Note string might contain even the unprintable chars
+i/p
+abcdef
+o/p
+fedcba
+
+i/p: This is C Program
+
+o/p: margorP C si sihT
+
+
+Q3. WAP to reverse the given line
+Note string might contain even the unprintable chars
+i/p: This is C Program
+
+o/p: sihT si C margorP
+
