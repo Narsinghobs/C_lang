@@ -1,0 +1,6 @@
+WAP to store the values of an array and calculte the avg and print
+the arrays element
+-> all operation need to be done using pointer expressions
+
+int arr[20];
+int *ptr;
