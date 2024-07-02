@@ -1,0 +1,38 @@
+1. proto typing of a function
+    (decalring a function)
+    ex: int addition(int, int);
+    
+    Note: there is no body of the function
+
+2. defining a function
+    set of instruction involved in executing
+    to get the desired output
+    ex:
+        int addition(int val1, int val2)
+        {
+            //body of the function
+            int result=0;
+            result = val1+val2;
+            return (result);
+        }
+3. calling/invoking a function
+    here we are actully asking the compiler to 
+    execute the function which is having defination
+    of a function
+
+    ex:
+    main()
+    {
+        int res=0;
+        res = addition(2,3); //calling/invoking a function
+        printf("\nresult = %d", res);
+        res = addition(21,31); //reuability
+        printf("\nresult = %d", res);
+        
+    }
+
+
+
+*) calling a function is involved with two types
+    1. call by value
+    2. call by pointer/reference

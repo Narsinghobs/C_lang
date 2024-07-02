@@ -1,0 +1,83 @@
+
+
+struct tagName
+{
+    related individual unit are mentioned/decalred
+};
+
+tagName => name of the structure
+
+ex:
+struct Employee
+{
+    int empid;
+    float empSal;
+    char empName[50];
+    char empGender;
+    int empPhno;
+}emp2;
+
+int a;
+
+struct Employee emp1;
+
+typedef struct Employee
+{
+    int empid;
+    float empSal;
+    char empName[50];
+    char empGender;
+    int empPhno;
+}EMP;
+
+EMP e1,e2;
+
+
+struct Employee
+{
+    int empid;
+    float empSal;
+    char empName[50];
+    char empGender;
+    int empPhno;
+};
+
+typedef struct Employee EMP;
+
+size of the data = 63 bytes
+
+mem of struct => properties of struct
+
+ways:
+1. dot op (.) // when the vaiable of struct is decaalred normally
+2. arrow op (->) //when the vaiable of struct is decaalred as pointer
+
+EMP e1; //variable of EMP type
+
+e1.empid = 1001; =>access the member of the structure
+// by using dot op
+
+EMP e1;
+EMP *eptr;
+
+eptr = &e1;
+
+eptr->empid = 1010 => access member of struct using arrow
+// as eptr is a pointer to EMP
+
+scanf("%d",&e1.empid);
+scanf("%d",&eptr->empid);
+
+main()
+{
+    func(e1);
+}
+
+//pass by value of the structure
+func(EMP e)
+{
+    
+}
+
+
+
