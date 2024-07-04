@@ -1,0 +1,8 @@
+Q. Write Employee structure/contents to a file and read the contents of a file 
+and store it in an another Employee structure variable
+
+e1=> contents
+=> write to a file
+
+e2 => read the contents stored in a file and assign it to
+ Employee structure members 
